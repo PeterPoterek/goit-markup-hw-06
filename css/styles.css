@@ -91,7 +91,40 @@ menu {
 
   z-index: 100;
 }
+.modal-wrapper {
+  display: flex;
+  flex-direction: column;
 
+  justify-content: center;
+  align-items: center;
+  gap: 26px;
+
+  padding-top: 72px;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-bottom: 24px;
+}
+
+.modal-title {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+
+  text-align: center;
+  max-width: 360px;
+}
+
+.modal-input {
+  width: 360px;
+  margin: 0;
+  padding: 0;
+}
+.modal-comment {
+  resize: none;
+
+  width: 360px;
+  height: 120px;
+}
 .modal-close-button {
   position: absolute;
 
