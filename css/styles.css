@@ -173,8 +173,6 @@ menu {
 }
 .modal-submit-container {
   display: flex;
-  justify-content: center;
-  align-items: center;
 
   flex-direction: column;
   gap: 24px;
@@ -183,6 +181,13 @@ menu {
 .modal-terms-wrapper {
   display: flex;
   gap: 8px;
+}
+input[type="checkbox"] {
+  accent-color: var(--color-ocean);
+  mix-blend-mode: multiply;
+
+  width: 16px;
+  height: 16px;
 }
 
 .modal-terms-text {
@@ -194,6 +199,10 @@ menu {
 }
 .modal-terms-highlighted {
   color: var(--color-iris);
+
+  font-size: 12px;
+  line-height: 1.3333;
+  letter-spacing: 0.48px;
   text-decoration: underline;
 }
 .modal-submit-button {
