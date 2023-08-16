@@ -113,22 +113,48 @@ menu {
   text-align: center;
   max-width: 360px;
 }
+.modal-label {
+  color: var(--color-cloud-slate);
+
+  font-size: 12px;
+  line-height: 1.1667;
+  letter-spacing: 0.48px;
+}
 .modal-input-container {
   display: flex;
   flex-direction: column;
 
-  gap: 8px;
+  gap: 4px;
 }
 .modal-input {
   width: 360px;
   margin: 0;
   padding: 0;
+
+  outline: none;
+
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  border-radius: 4px;
 }
 .modal-comment {
+  outline: none;
+
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  border-radius: 4px;
+
   resize: none;
 
   width: 360px;
   height: 120px;
+
+  padding: 8px 16px;
+}
+.modal-comment::placeholder {
+  color: rgba(46, 47, 66, 0.4);
+
+  font-size: 12px;
+  line-height: 1.667;
+  letter-spacing: 0.48px;
 }
 .modal-submit-container {
   display: flex;
