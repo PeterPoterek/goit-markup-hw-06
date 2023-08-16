@@ -171,7 +171,7 @@ menu {
   line-height: 1.667;
   letter-spacing: 0.48px;
 }
-.modal-submit-container {
+.modal-terms-container {
   display: flex;
 
   flex-direction: column;
@@ -181,6 +181,7 @@ menu {
 .modal-terms-wrapper {
   display: flex;
   gap: 8px;
+  align-items: center;
 }
 input[type="checkbox"] {
   accent-color: var(--color-ocean);
@@ -204,6 +205,13 @@ input[type="checkbox"] {
   line-height: 1.3333;
   letter-spacing: 0.48px;
   text-decoration: underline;
+}
+.modal-submit-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding-top: 24px;
 }
 .modal-submit-button {
   color: var(--color-white);
