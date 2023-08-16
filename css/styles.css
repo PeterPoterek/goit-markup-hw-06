@@ -7,7 +7,7 @@
   --color-cloud-slate: #8e8f99;
   --color-cornflower: #e7e9fc;
   --color-cloud: #f4f4fd;
-  --color-navy-blue-modal: #2e2f42;
+  --color-navy-blue-modal: rgba(46, 47, 66, 0.4);
   --color-grey: #2e2f42;
   --color-white: #ffffff;
   --color-dairy: #fcfcfc;
@@ -66,7 +66,7 @@ menu {
   top: 0;
   left: 0;
 
-  background: rgba(46, 47, 66, 0.4);
+  background: var(--color-navy-blue-modal);
   width: 100%;
   height: 100%;
 
@@ -133,13 +133,13 @@ menu {
 
   outline: none;
 
-  border: 1px solid rgba(46, 47, 66, 0.4);
+  border: 1px solid var(--color-navy-blue-modal);
   border-radius: 4px;
 }
 .modal-comment {
   outline: none;
 
-  border: 1px solid rgba(46, 47, 66, 0.4);
+  border: 1px solid var(--color-navy-blue-modal);
   border-radius: 4px;
 
   resize: none;
@@ -150,7 +150,7 @@ menu {
   padding: 8px 16px;
 }
 .modal-comment::placeholder {
-  color: rgba(46, 47, 66, 0.4);
+  color: var(--color-navy-blue-modal);
 
   font-size: 12px;
   line-height: 1.667;
