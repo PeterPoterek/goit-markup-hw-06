@@ -130,14 +130,23 @@ menu {
   width: 360px;
   height: 120px;
 }
-.modal-button-container {
+.modal-submit-container {
   display: flex;
   justify-content: center;
   align-items: center;
+
+  flex-direction: column;
+  gap: 24px;
+
+  margin-top: 16px;
 }
 .modal-submit-button {
   color: var(--color-white);
   background-color: var(--color-iris);
+
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.64px;
 
   border: none;
   border-radius: 4px;
@@ -619,6 +628,7 @@ menu {
   color: var(--color-white);
   background-color: var(--color-iris);
 
+  font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.64px;
 
