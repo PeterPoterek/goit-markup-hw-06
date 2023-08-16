@@ -81,8 +81,7 @@ menu {
   left: 50%;
 
   transform: translate(-50%, -50%);
-  width: 408px;
-  height: 584px;
+  max-width: 408px;
 
   border-radius: 4px;
 
@@ -123,22 +122,27 @@ menu {
   padding-top: 16px;
   padding-bottom: 16px;
 }
+.modal-input-wrapper {
+  position: relative;
+  display: inline-block;
+}
+.modal-input-icon {
+  position: absolute;
+  top: 50%;
+  left: 16px;
+}
 .modal-input {
   width: 360px;
-  margin: 0;
-  padding: 0;
 
   margin-top: 4px;
-  outline: none;
+  padding-left: 38px;
+  padding-top: 11px;
+  padding-bottom: 11px;
 
   border: 1px solid var(--color-navy-blue-modal);
   border-radius: 4px;
-
-  height: 40px;
 }
 .modal-comment {
-  outline: none;
-
   border: 1px solid var(--color-navy-blue-modal);
   border-radius: 4px;
 
