@@ -72,29 +72,36 @@
 
               <div class="modal-wrapper">
                 <h2 class="modal-title">Leave your contacts and we will call you back</h2>
-                <form></form>
-                <div>
-                  <label for="name">Name</label>
-                  <input type="text" class="modal-input" id="name" />
+                <form>
+                  <div class="modal-input-container">
+                    <label for="name">Name</label>
+                    <input type="text" class="modal-input" id="name" />
 
-                  <label for="phone">Phone</label>
-                  <input type="text" class="modal-input" id="phone" />
+                    <label for="phone">Phone</label>
+                    <input type="text" class="modal-input" id="phone" />
 
-                  <label for="email">Email</label>
-                  <input type="text" class="modal-input" id="email" />
+                    <label for="email">Email</label>
+                    <input type="text" class="modal-input" id="email" />
 
-                  <label for="comment">Comment</label>
-                  <textarea class="modal-comment" id="comment"></textarea>
-                </div>
+                    <label for="comment">Comment</label>
+                    <textarea
+                      class="modal-comment"
+                      id="comment"
+                      placeholder="Text input"
+                    ></textarea>
+                  </div>
 
-                <div>
-                  <input type="checkbox" id="termsAndConditions" />
-                  <label for="termsAndConditions"
-                    >I accept the terms and conditions of the Privacy Policy</label
-                  >
-                </div>
+                  <div>
+                    <input type="checkbox" id="termsAndConditions" />
+                    <label for="termsAndConditions"
+                      >I accept the terms and conditions of the Privacy Policy</label
+                    >
+                  </div>
 
-                <button class="modal-submit-button" type="submit">Send</button>
+                  <div class="modal-button-container">
+                    <button class="modal-submit-button" type="submit">Send</button>
+                  </div>
+                </form>
               </div>
             </div>
           </div>
