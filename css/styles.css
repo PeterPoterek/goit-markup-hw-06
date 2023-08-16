@@ -96,14 +96,6 @@ menu {
   padding-right: 24px;
   padding-bottom: 24px;
 }
-.modal-wrapper {
-  display: flex;
-  flex-direction: column;
-
-  justify-content: center;
-  align-items: center;
-  gap: 26px;
-}
 
 .modal-title {
   font-size: 16px;
@@ -113,6 +105,7 @@ menu {
   text-align: center;
   max-width: 360px;
 }
+
 .modal-label {
   color: var(--color-cloud-slate);
 
@@ -124,17 +117,24 @@ menu {
   display: flex;
   flex-direction: column;
 
-  gap: 4px;
+  gap: 8px;
+  justify-content: space-between;
+
+  padding-top: 16px;
+  padding-bottom: 16px;
 }
 .modal-input {
   width: 360px;
   margin: 0;
   padding: 0;
 
+  margin-top: 4px;
   outline: none;
 
   border: 1px solid var(--color-navy-blue-modal);
   border-radius: 4px;
+
+  height: 40px;
 }
 .modal-comment {
   outline: none;
@@ -156,6 +156,7 @@ menu {
   line-height: 1.667;
   letter-spacing: 0.48px;
 }
+
 .modal-submit-container {
   display: flex;
   justify-content: center;
@@ -163,8 +164,22 @@ menu {
 
   flex-direction: column;
   gap: 24px;
+}
+.modal-terms-wrapper {
+  display: flex;
+  gap: 8px;
+}
 
-  margin-top: 16px;
+.modal-terms-text {
+  color: var(--color-cloud-slate);
+
+  font-size: 12px;
+  line-height: 1.667;
+  letter-spacing: 0.48px;
+}
+.modal-terms-highlighted {
+  color: var(--color-iris);
+  text-decoration: underline;
 }
 .modal-submit-button {
   color: var(--color-white);
