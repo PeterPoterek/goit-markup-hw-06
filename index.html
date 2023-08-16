@@ -77,31 +77,51 @@
                     <svg class="modal-input-icon" width="18" height="24">
                       <use href="./images/icons.svg#icon-person"></use>
                     </svg>
-                    <label class="modal-label" for="name">Name</label>
-                    <input type="text" class="modal-input" id="name" required />
+                    <label class="modal-label" for="customerName">Name</label>
+                    <input
+                      type="text"
+                      class="modal-input"
+                      id="customerName"
+                      required
+                      name="customerName"
+                    />
                   </div>
 
                   <div class="modal-input-wrapper">
                     <svg class="modal-input-icon" width="18" height="24">
                       <use href="./images/icons.svg#icon-phone"></use>
                     </svg>
-                    <label class="modal-label" for="phone">Phone</label>
-                    <input type="number" class="modal-input" id="phone" required />
+                    <label class="modal-label" for="customerPhone">Phone</label>
+                    <input
+                      type="number"
+                      class="modal-input"
+                      id="customerPhone"
+                      required
+                      name="customerPhone"
+                      min="0"
+                    />
                   </div>
 
                   <div class="modal-input-wrapper">
                     <svg class="modal-input-icon" width="18" height="24">
                       <use href="./images/icons.svg#icon-email"></use>
                     </svg>
-                    <label class="modal-label" for="email">Email</label>
-                    <input type="email" class="modal-input" id="email" required />
+                    <label class="modal-label" for="customerEmail">Email</label>
+                    <input
+                      type="email"
+                      class="modal-input"
+                      id="customerEmail"
+                      required
+                      name="customerEmail"
+                    />
                   </div>
 
-                  <label class="modal-label" for="comment">Comment</label>
+                  <label class="modal-label" for="customerComment">Comment</label>
                   <textarea
                     class="modal-comment"
-                    id="comment"
+                    id="customerComment"
                     placeholder="Text input"
+                    name="customerComment"
                   ></textarea>
                 </div>
 
@@ -690,9 +710,9 @@
                 <input
                   class="footer-newsletter-input"
                   required
-                  id="newsletter"
+                  id="newsletterEmail"
                   type="email"
-                  name="newsletter"
+                  name="newsletterEmail"
                   placeholder="E-mail"
                 />
 
