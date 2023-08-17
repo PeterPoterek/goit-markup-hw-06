@@ -187,12 +187,39 @@ menu {
   gap: 8px;
   align-items: center;
 }
-input[type="checkbox"] {
-  accent-color: var(--color-ocean);
-  mix-blend-mode: multiply;
-
+.checkbox {
   width: 16px;
   height: 16px;
+  appearance: none;
+  padding: 0;
+  margin: 0;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.checkbox-wrapper {
+  position: relative;
+  width: 16px;
+  height: 16px;
+  border-radius: 4px;
+  border: 1px solid var(--color-navy-blue-modal);
+}
+
+.icon {
+  opacity: 0;
+  top: -1px;
+  left: -1px;
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  pointer-events: none;
+
+  border: 1px solid var(--color-ocean);
+  border-radius: 4px;
+}
+
+.checkbox:checked + svg {
+  opacity: 1;
 }
 
 .modal-terms-text {
