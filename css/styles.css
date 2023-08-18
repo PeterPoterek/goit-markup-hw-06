@@ -291,7 +291,15 @@ menu {
   background-color: var(--color-ocean);
   fill: var(--color-white);
 }
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
 
+input[type="number"] {
+  -moz-appearance: textfield; /* Firefox */
+}
 /* end of Modal */
 
 /* Header section */
